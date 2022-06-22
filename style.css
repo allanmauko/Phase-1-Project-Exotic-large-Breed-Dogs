@@ -1,0 +1,34 @@
+.
+{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image: url('../Phase-1-Project-Exotic-large-Breed-Dogs/Images/husky.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-menu {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.nav-menu li{
+    display: inline-block;
+}
+.nav-menu li a{
+    color:darkblue;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu li a:hover {
+    background-color:burlywood;
+}
+
