@@ -1,15 +1,12 @@
 
 body{
-    overflow-x: hidden;
-    margin:0;
-    padding:0;
-}
-
-header{
-    background-image: url('../Phase-1-Project-Exotic-large-Breed-Dogs/Images/boerboel-pup.jpg');
+    /* background-image: url('../Phase-1-Project-Exotic-large-Breed-Dogs/Images/boerboel-pup.jpg');
+    background-repeat: no-repeat; */
     height:100vh;
-    background-size:cover;
-    background-position:top;
+    /* background-size:cover;
+    background-position:top; */
+    background-color: cyan;
+
 }
 
 .nav-menu {
@@ -33,7 +30,7 @@ header{
     background-color:burlywood;
 }
 .name{
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     margin: auto;
     padding: top 10px;
@@ -52,7 +49,19 @@ header{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 5px 10px;
 }
+.dogs{
+    display: flex;
+    position: relative;
+}
+.dogs img{
+width: 700px;
+height: 350px;
+}
+.BreedList{
+    margin-top: 5%;
+}
 .BreedList ul{
+    
     padding: 10px;
     display: block;
     -webkit-columns:3;
