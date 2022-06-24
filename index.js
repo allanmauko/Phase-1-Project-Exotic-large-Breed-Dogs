@@ -9,21 +9,6 @@ document.addEventListener('DOMContentLoaded', function(){
 })  
 
 
-//  async function fetchDogBreed() {
-//     let res = await fetch('https://dog.ceo/api/breeds/image/random/3')
-//     console.log(res);
-    //  let dogs = await res.json()
-    //console.log(dogs)
-//const url = new URL('https://dog.ceo/api/breeds/image/random/3');
-//  const response = await fetch(url, {
-//     headers:{
-//         "Content-type: application/json",
-//     }
-//  });
-
-//  if(response.status==200){
-
-//  }
 async function fetchDogBreed(){
  const response = await fetch('https://dog.ceo/api/breeds/list');
     console.log(response);
