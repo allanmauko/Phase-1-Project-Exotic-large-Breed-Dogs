@@ -22,7 +22,7 @@ body{
 }
 
 .nav-menu li a:hover {
-    background-color:burlywood;
+    background-color:rgb(64, 55, 43);
 }
 .name{
     /* height: 80vh; */
