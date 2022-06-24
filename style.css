@@ -1,14 +1,15 @@
-.
-{
+
+body{
+    overflow-x: hidden;
     margin:0;
     padding:0;
 }
 
 header{
-    background-image: url('../Phase-1-Project-Exotic-large-Breed-Dogs/Images/husky.jpg');
-    height:100vh;
-    background-size: cover;
-    background-position: center;
+    background-image: url('../Phase-1-Project-Exotic-large-Breed-Dogs/Images/boerboel-pup.jpg');
+    height:120vh;
+    background-size:cover;
+    background-position:center;
 }
 
 .nav-menu {
@@ -21,7 +22,7 @@ header{
     display: inline-block;
 }
 .nav-menu li a{
-    color:darkblue;
+    color:white;
     text-decoration:none;
     padding: 5px 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,4 +32,35 @@ header{
 .nav-menu li a:hover {
     background-color:burlywood;
 }
+.name{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    padding-top:20px;
+}
+.name h3{
+    color:white;
+    display:inline-flexbox; 
+    padding: 60px 20px;
+    font-family:verdana, tahoma;
+    font-size: 48px; 
+    margin: 20px 10px;
+}
+.name h4{
+    font-size: 30px;
+    font-family:tahoma, verdana;
+    margin: 5px 10px;
+}
+.BreedList ul{
+    padding: -20px;
+    display: block;
+    -webkit-columns:3;
+    -moz-columns:3;
+    columns:3;
+}
+.BreedList ul{
+    height:40vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
+}
