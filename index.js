@@ -1,8 +1,4 @@
-// let fetchDogBreed = async() => {
-//     let response = await fetch('https://dog.ceo/api/breeds/image/random/3')
-//     let data = await  response.json()
-//     console.log(data)
-// }
+
 fetchDogBreed()
 document.addEventListener('DOMContentLoaded', function(){
     fetchDogBreed()
