@@ -14,4 +14,4 @@ JAVASCRIPT
 
 Incase you run into any issues,kindly contact allanmauko@gmail.com.
 This is under the [MIT](LICENSE) license
-Copyright (c) 2022 *{https://dog.ceo/api}*
+Copyright (c) 2022 Allan Mauko *{https://dog.ceo/api}*
