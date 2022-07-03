@@ -8,8 +8,8 @@ There are no known Bugs.
 live link {'https://allanmauko.github.io/Phase-1-Project-Exotic-large-Breed-Dogs/'}
 
 This app was created using:
-HTML
-CSS
+HTML,
+CSS and
 JAVASCRIPT
 
 Incase you run into any issues,kindly contact allanmauko@gmail.com.
